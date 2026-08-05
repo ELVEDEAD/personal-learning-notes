@@ -1,6 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
-a=5
-b=3
-c=a+b
-print(c)
+a=eval(input("请输入一个数"))
+b=eval(input("请输入一个数"))
+if a>b:
+   c=a+b
+   print(c)
+else:
+  print("周嘉佑是傻逼")
