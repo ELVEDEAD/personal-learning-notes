@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+#开始输入
 a=float(input("请输入一个数字："))
 b=float(input("请输入下一个数字："))
 res=a+b
