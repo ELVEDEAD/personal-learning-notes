@@ -6,4 +6,4 @@ if a>b:
    c=a+b
    print(c)
 else:
-  print("无返回值")
+  print("无返回准确值")
