@@ -6,4 +6,4 @@ if a>b:
    c=a+b
    print(c)
 else:
-  print("傻逼")
+  print("周嘉佑是超级无敌大傻逼")
