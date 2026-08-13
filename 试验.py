@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 a = int(input("起始抽数："))
 b = int(input("结束抽数："))
+#程序开始
 draw = []
 prob = []
 for n in range(a, b + 1):
