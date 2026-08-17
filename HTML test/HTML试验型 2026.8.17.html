@@ -3,29 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html 表单</title>
+    <title>CSS导入方式</title>
+    <link rel="stylesheet" href="./css专属文件夹/style.css">
+    <br>
+<style>
+        p{color:aquamarine;
+        font-size: 25px;
+        }
+        h2{color:blue;
+        font-size: 25px;
+        }
+</style>
 </head>
 <body>
-<form>
-    <label>用户名：</label>
-     <input type="text" placeholder="请输入名字">
-     <br>
-     <br>
-    <label>密码：</label>
-    <input type="password" placeholder="请输入密码">
-     <br>
-     <br>
-    <label>性别：</label>
-    <input type="radio" name="gender">男
-    <input type="radio" name="gender">女
-    <input type="radio" name="gender">其他
-    <br>
-    <label>爱好：</label>
-    <input type="checkbox" name="hobby">篮球
-    <input type="checkbox" name="hobby">足球
-    <input type="checkbox" name="hobby">羽毛球
-    <br>
-    <input type="submit" value="提交">
-    </form>
+    <p>这是一个标签<a href="https://www.example.com">链接</a></p>
+    <h1 style="color: red; font-size: 30px;">这是一个一级标签,使用内联样式</h1>
+    <h2>这是一个二级标签，使用内部样式</h2>
+    <h3>这是一个三级标签，使用外部样式</h3>
 </body>
 </html>
