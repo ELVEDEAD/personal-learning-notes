@@ -1,7 +1,9 @@
 #简易庞加莱回归
 import random
 start=[0,1,2,3]
+#保留一份原状态给now
 now=start.copy()
+#计数器
 count=0
 print("初始状态:",start)
 while True:
