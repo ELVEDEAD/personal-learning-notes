@@ -1,0 +1,11 @@
+def coupon():
+   if 6000>total[s]>=5000:
+      end=total[s]*0.88
+   elif 7000>total[s]>=6000:
+      end=total[s]*0.85
+   elif 8000>total[s]>=7000:
+      end=total[s]*0.8
+   elif total[s]>=8000:
+      end=total[s]*0.75
+   else:
+      end=total[s]
